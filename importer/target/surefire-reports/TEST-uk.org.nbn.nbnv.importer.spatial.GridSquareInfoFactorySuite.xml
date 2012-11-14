@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="1.422" errors="3" skipped="0" tests="12" name="uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.6.0_33\jre\bin"/>
+    <property name="java.vm.version" value="20.8-b03"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Projects\Work\nbnv\importer"/>
+    <property name="java.runtime.version" value="1.6.0_33-b05"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.6.0_33\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PAULGI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Program Files\NetBeans 7.2\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.6.0_33\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;d:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;d:\Program Files\Microsoft SQL Server\110\Tools\Binn\;d:\Program Files\Microsoft SQL Server\110\DTS\Binn\;d:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;d:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Paul Gilbertson"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="Paul Gilbertson"/>
+    <property name="java.class.path" value="D:\Program Files\NetBeans 7.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.6.0_33\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_33"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.6.0_33\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.6.0_33\jre\lib\resources.jar;D:\Program Files\Java\jdk1.6.0_33\jre\lib\rt.jar;D:\Program Files\Java\jdk1.6.0_33\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.6.0_33\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.6.0_33\jre\lib\jce.jar;D:\Program Files\Java\jdk1.6.0_33\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.6.0_33\jre\lib\modules\jdk.boot.jar;D:\Program Files\Java\jdk1.6.0_33\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="D:\Program Files\NetBeans 7.2\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.006" classname="uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite" name="should recognise irish grid ref"/>
+  <testcase time="0.001" classname="uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite" name="should recognise irish dinty grid ref"/>
+  <testcase time="0.001" classname="uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite" name="should recognise british grid ref"/>
+  <testcase time="0" classname="uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite" name="should recognise british dinty grid ref"/>
+  <testcase time="0.001" classname="uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite" name="should recognise ci grid ref"/>
+  <testcase time="0.001" classname="uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite" name="should recognise ci dinty grid ref"/>
+  <testcase time="0.001" classname="uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite" name="should return gridref for correct grid reference type"/>
+  <testcase time="0" classname="uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite" name="should throw exception for invalid grid reference type"/>
+  <testcase time="1.392" classname="uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite" name="smoke test - should give british grid square for lat 53.718103 lng -1.8684933">
+    <error message="None.get" type="java.util.NoSuchElementException">java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:274)
+	at scala.None$.get(Option.scala:272)
+	at uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite$$anonfun$9.apply$mcV$sp(GridSquareInfoFactorySuite.scala:109)
+	at uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite$$anonfun$9.apply(GridSquareInfoFactorySuite.scala:104)
+	at uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite$$anonfun$9.apply(GridSquareInfoFactorySuite.scala:104)
+	at org.scalatest.FunSuite$$anon$1.apply(FunSuite.scala:1265)
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1974)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.withFixture(BaseFunSuite.scala:12)
+	at org.scalatest.FunSuite$class.invokeWithFixture$1(FunSuite.scala:1262)
+	at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)
+	at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:198)
+	at org.scalatest.FunSuite$class.runTest(FunSuite.scala:1271)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.runTest(BaseFunSuite.scala:12)
+	at org.scalatest.FunSuite$$anonfun$runTests$1.apply(FunSuite.scala:1304)
+	at org.scalatest.FunSuite$$anonfun$runTests$1.apply(FunSuite.scala:1304)
+	at org.scalatest.SuperEngine$$anonfun$org$scalatest$SuperEngine$$runTestsInBranch$1.apply(Engine.scala:260)
+	at org.scalatest.SuperEngine$$anonfun$org$scalatest$SuperEngine$$runTestsInBranch$1.apply(Engine.scala:249)
+	at scala.collection.LinearSeqOptimized$class.foreach(LinearSeqOptimized.scala:59)
+	at scala.collection.immutable.List.foreach(List.scala:76)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:249)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:326)
+	at org.scalatest.FunSuite$class.runTests(FunSuite.scala:1304)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.runTests(BaseFunSuite.scala:12)
+	at org.scalatest.Suite$class.run(Suite.scala:2303)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.org$scalatest$FunSuite$$super$run(BaseFunSuite.scala:12)
+	at org.scalatest.FunSuite$$anonfun$run$1.apply(FunSuite.scala:1310)
+	at org.scalatest.FunSuite$$anonfun$run$1.apply(FunSuite.scala:1310)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:362)
+	at org.scalatest.FunSuite$class.run(FunSuite.scala:1310)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.run(BaseFunSuite.scala:12)
+	at org.scalatest.junit.JUnitRunner.run(JUnitRunner.scala:94)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+    <system-out>[EL Info]: 2012-11-06 12:07:01.846--ServerSession(1267757662)--EclipseLink, version: Eclipse Persistence Services - 2.3.0.v20110604-r9504
+[EL Info]: 2012-11-06 12:07:02.203--ServerSession(1267757662)--file:/C:/Users/Paul Gilbertson/.m2/repository/uk/org/nbn/nbnv-crud/0.1-SNAPSHOT/nbnv-crud-0.1-SNAPSHOT.jar_NBNCore-PU_url=jdbc:sqlserver://sql-spatial;databaseName=NBNCore_user=NBNImporter login successful
+</system-out>
+    <system-err>log4j:WARN No appenders could be found for logger (org.jboss.logging).
+log4j:WARN Please initialize the log4j system properly.
+</system-err>
+  </testcase>
+  <testcase time="0.004" classname="uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite" name="smoke test - should give irish grid square for lat 54.622978 lng -7.1389159">
+    <error message="None.get" type="java.util.NoSuchElementException">java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:274)
+	at scala.None$.get(Option.scala:272)
+	at uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite$$anonfun$10.apply$mcV$sp(GridSquareInfoFactorySuite.scala:120)
+	at uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite$$anonfun$10.apply(GridSquareInfoFactorySuite.scala:115)
+	at uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite$$anonfun$10.apply(GridSquareInfoFactorySuite.scala:115)
+	at org.scalatest.FunSuite$$anon$1.apply(FunSuite.scala:1265)
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1974)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.withFixture(BaseFunSuite.scala:12)
+	at org.scalatest.FunSuite$class.invokeWithFixture$1(FunSuite.scala:1262)
+	at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)
+	at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:198)
+	at org.scalatest.FunSuite$class.runTest(FunSuite.scala:1271)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.runTest(BaseFunSuite.scala:12)
+	at org.scalatest.FunSuite$$anonfun$runTests$1.apply(FunSuite.scala:1304)
+	at org.scalatest.FunSuite$$anonfun$runTests$1.apply(FunSuite.scala:1304)
+	at org.scalatest.SuperEngine$$anonfun$org$scalatest$SuperEngine$$runTestsInBranch$1.apply(Engine.scala:260)
+	at org.scalatest.SuperEngine$$anonfun$org$scalatest$SuperEngine$$runTestsInBranch$1.apply(Engine.scala:249)
+	at scala.collection.LinearSeqOptimized$class.foreach(LinearSeqOptimized.scala:59)
+	at scala.collection.immutable.List.foreach(List.scala:76)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:249)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:326)
+	at org.scalatest.FunSuite$class.runTests(FunSuite.scala:1304)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.runTests(BaseFunSuite.scala:12)
+	at org.scalatest.Suite$class.run(Suite.scala:2303)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.org$scalatest$FunSuite$$super$run(BaseFunSuite.scala:12)
+	at org.scalatest.FunSuite$$anonfun$run$1.apply(FunSuite.scala:1310)
+	at org.scalatest.FunSuite$$anonfun$run$1.apply(FunSuite.scala:1310)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:362)
+	at org.scalatest.FunSuite$class.run(FunSuite.scala:1310)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.run(BaseFunSuite.scala:12)
+	at org.scalatest.junit.JUnitRunner.run(JUnitRunner.scala:94)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+  </testcase>
+  <testcase time="0.005" classname="uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite" name="smoke test - should give channel islands grid square for lat 49.177422 lng -2.183612">
+    <error message="None.get" type="java.util.NoSuchElementException">java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:274)
+	at scala.None$.get(Option.scala:272)
+	at uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite$$anonfun$11.apply$mcV$sp(GridSquareInfoFactorySuite.scala:131)
+	at uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite$$anonfun$11.apply(GridSquareInfoFactorySuite.scala:126)
+	at uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite$$anonfun$11.apply(GridSquareInfoFactorySuite.scala:126)
+	at org.scalatest.FunSuite$$anon$1.apply(FunSuite.scala:1265)
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1974)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.withFixture(BaseFunSuite.scala:12)
+	at org.scalatest.FunSuite$class.invokeWithFixture$1(FunSuite.scala:1262)
+	at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)
+	at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:198)
+	at org.scalatest.FunSuite$class.runTest(FunSuite.scala:1271)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.runTest(BaseFunSuite.scala:12)
+	at org.scalatest.FunSuite$$anonfun$runTests$1.apply(FunSuite.scala:1304)
+	at org.scalatest.FunSuite$$anonfun$runTests$1.apply(FunSuite.scala:1304)
+	at org.scalatest.SuperEngine$$anonfun$org$scalatest$SuperEngine$$runTestsInBranch$1.apply(Engine.scala:260)
+	at org.scalatest.SuperEngine$$anonfun$org$scalatest$SuperEngine$$runTestsInBranch$1.apply(Engine.scala:249)
+	at scala.collection.LinearSeqOptimized$class.foreach(LinearSeqOptimized.scala:59)
+	at scala.collection.immutable.List.foreach(List.scala:76)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:249)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:326)
+	at org.scalatest.FunSuite$class.runTests(FunSuite.scala:1304)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.runTests(BaseFunSuite.scala:12)
+	at org.scalatest.Suite$class.run(Suite.scala:2303)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.org$scalatest$FunSuite$$super$run(BaseFunSuite.scala:12)
+	at org.scalatest.FunSuite$$anonfun$run$1.apply(FunSuite.scala:1310)
+	at org.scalatest.FunSuite$$anonfun$run$1.apply(FunSuite.scala:1310)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:362)
+	at org.scalatest.FunSuite$class.run(FunSuite.scala:1310)
+	at uk.org.nbn.nbnv.importer.testing.BaseFunSuite.run(BaseFunSuite.scala:12)
+	at org.scalatest.junit.JUnitRunner.run(JUnitRunner.scala:94)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+  </testcase>
+  <testcase time="0.004" classname="uk.org.nbn.nbnv.importer.spatial.GridSquareInfoFactorySuite" name="should give none for grid ref outside of supported grid systems"/>
+</testsuite>
